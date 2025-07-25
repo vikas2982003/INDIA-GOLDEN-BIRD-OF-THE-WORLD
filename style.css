@@ -1,0 +1,128 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    background:linear-gradient(rgb(255, 169, 9),rgb(255, 255, 255),rgb(46, 255, 46));
+   
+    background-clip: text;
+    text-decoration: none;
+}
+.video-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  z-index: -1;
+
+}
+
+.head{
+    padding-top: 0.5%; 
+}
+#nav
+{
+    display:flex ;
+    flex-direction: row; 
+    height: 7vh;
+    width: 100vw;
+    position: fixed;
+    z-index: 1;
+ background: LINEAR-gradient(rgb(255, 174, 44),rgb(209, 202, 202) ,rgb(23, 161, 23));
+
+ border-radius: 35px;
+    
+}
+.n1
+{
+height: 7vh;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.n2
+{
+   font-size: 110%;
+    height: 7vh;
+    width: 80%;
+    padding-top: 10px;
+}
+
+#logo
+{
+    height: 110%;
+
+}
+#nav2
+{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#headi
+{
+
+   padding-top: 21%;
+    display: grid;
+place-items: center;
+background-color: linear-gradient( rgb(255, 187, 0) ,white,rgb(48, 48, 194),rgb(6, 81, 6));
+
+}
+
+#headi h1
+{
+    font-size: 3.5rem;
+}
+#headi p
+{
+    font-size: 1.8rem;
+}
+
+
+/* -----------------------section 1 blank----------------------------- */
+
+
+.hello{
+    height:45vh;
+    width: 99.vw;
+    
+}
+
+/* -----------------------section 2 welcome----------------------------- */
+
+.wel
+{
+    height: 70vh;
+    width: 99vw;
+    
+    display: flex;
+}
+
+.welt
+{
+    height: 70vh;
+    width: 50%;
+    display: grid;
+    place-items:center ;
+    background-color: linear-gradient(orange,white,rgb(48, 48, 194),green);
+}
+
+.weli
+{
+    height: 70vh;
+    width: 50%;
+    display: grid;
+    place-items: center;
+    
+}
+.hotel
+{
+    border-radius: 10%;
+}
+
+    /* <!-- -------------------------section 3 what we offer ------------------------------------ --> */
